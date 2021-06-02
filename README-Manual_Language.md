@@ -21,3 +21,26 @@ Anchor <a> tags:
 [Code Institute](https://codeinstitute.net)
 Note! That there are no space between the square brackets and the round brackets [](). Use this to make an Anchor link with it's name highlighted.  
 
+
+
+---
+
+[CI README Intro. - Tutorial](https://youtu.be/zdUGp7r5n00)
+
+---
+
+Examples from Code Institute:
+[Code Institute Website](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+
+
+---
+
+External URL with explination:
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+---
+[Mockup screenshot generator](http://ami.responsivedesign.is/)
+
+---
+
