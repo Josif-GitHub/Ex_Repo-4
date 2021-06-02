@@ -107,11 +107,12 @@ In addition, you may also use this section to discuss plans for additional featu
 <!-- My own markdown -->
 ### Features Left to Implement
 
-
+- Home page. Ability to add and remove what is displayed in this feed by the network administrator.
+- Activities page. Form for feedback on activities that already exist and form for new suggestions for activities that are requested.
+- Activities / Gallery page. Function for participants to upload their own pictures with comments on activities they have participated in.
+- Partners page. Function for organizations or administrator of the network to upload their own images with logos on organizations that are already with and / or new ones that have been added, so that they can become independent from a developer who does it for them.
+- Contact page. Increase the number of types of inputs in registration forms depending on the information requested as time goes on.
 <!-- My own markdown / End -->
-<!-- Edit -->
-- Another feature idea
-<!-- End Edit -->
 
 <!-- My own markdown -->
 ## Testing 
