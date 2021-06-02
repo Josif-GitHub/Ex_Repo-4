@@ -112,6 +112,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - Activities / Gallery page. Function for participants to upload their own pictures with comments on activities they have participated in.
 - Partners page. Function for organizations or administrator of the network to upload their own images with logos on organizations that are already with and / or new ones that have been added, so that they can become independent from a developer who does it for them.
 - Contact page. Increase the number of types of inputs in registration forms depending on the information requested as time goes on.
+- Add feedback forms where users of the application can make requests on how this communication channel can be improved, what is good, what should be fixed, what should be removed and what is missing to increase the quality of UX / UI.
 <!-- My own markdown / End -->
 
 <!-- My own markdown -->
