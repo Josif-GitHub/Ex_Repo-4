@@ -68,3 +68,14 @@ input, button {
     color: #1d7b32;
 }
 
+
+/* ----------Section Page - Contact - Form */
+
+.bg-light_contact_section-1 {
+    background-color: #E0EDE3!important;
+}
+
+.form-control {
+    width: 70%;
+}
+
