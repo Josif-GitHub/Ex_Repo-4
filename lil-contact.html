@@ -8,7 +8,7 @@
     <link rel="stylesheet" target="_blank" href="assets/static/css/lil.css" type="text/css">
     <title>LiL - Contact</title>
 </head>
-<body>
+<body class="bg-light">
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -60,51 +60,46 @@
         <div class="container-fluid">
             <div class="row bg-light_contact_section-1">
                 <div class="col-12">
-                    <h1 class="text-success">Contact</h1>
+                    <h4 class="text-success">Contact</h4>
+                </div>
+                <div class="col-12">
                     
                     <form>
                     
                 <article>
                     <div class="form-group row">
-                        <label for="inputFirstName1" class="col-12 col-sm-10 col-md-3 col-form-label">First Name</label>
-                        <div class="col-sm-4">
+                        <label for="inputFirstName1" class="col-4 col-md-2 col-form-label">First Name*</label>
+                        <div class="col-8 col-md-4">
                             <input type="text" class="form-control" id="inputFirstName1" placeholder="First Name" required/>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputLastName2" class="col-12 col-sm-10 col-md-3 col-form-label">Last Name</label>
-                        <div class="col-sm-4">
+                        </div> 
+
+                        <label for="inputLastName2" class="col-4 col-md-2 col-form-label">Last Name*</label>
+                        <div class="col-8 col-md-4">
                             <input type="text" class="form-control" id="inputLastName2" placeholder="Last Name" required/>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputPhone3" class="col-12 col-sm-10 col-md-3 col-form-label">Phone</label>
-                        <div class="col-sm-4">
-                            <input type="number" class="form-control" id="inputPhone3" placeholder="+46-70-000 00 00" required/>
-                        </div>
-                    </div>
                     
-                    <div class="form-group row">
-                        <label for="inputEmail4" class="col-12 col-sm-10 col-md-3 col-form-label">Email</label>
-                        <div class="col-sm-4">
+                        <label for="inputPhone3" class="col-4 col-md-2 col-form-label">Phone</label>
+                        <div class="col-8 col-md-4">
+                            <input type="number" class="form-control" id="inputPhone3" placeholder="+46-70-000 00 00"/>
+                        </div>  
+
+                        <label for="inputEmail4" class="col-4 col-md-2 col-form-label">Email*</label>
+                        <div class="col-8 col-md-4">
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required/>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputAddress5" class="col-12 col-sm-10 col-md-3 col-form-label">Address</label>
-                        <div class="col-sm-4">
+
+                        <label for="inputAddress5" class="col-4 col-md-2 col-form-label">Address*</label>
+                        <div class="col-8 col-md-4">
                             <input type="text" class="form-control" id="inputAddress5" placeholder="Address" required/>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputCity6" class="col-12 col-sm-10 col-md-3 col-form-label">City</label>
-                        <div class="col-sm-4">
-                            <input type="text" class="form-control" id="inputCity6" placeholder="City" required/>
+
+                        <label for="inputCity6" class="col-4 col-md-2 col-form-label">City</label>
+                        <div class="col-8 col-md-4">
+                            <input type="text" class="form-control" id="inputCity6" placeholder="City"/>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputZip-Code7" class="col-12 col-sm-10 col-md-3 col-form-label">Zip-Code</label>
-                        <div class="col-sm-4">
+                        
+                        <label for="inputZip-Code7" class="col-4 col-md-2 col-form-label">Zip-Code*</label>
+                        <div class="col-8 col-md-4">
                             <input type="text" class="form-control" id="inputZip-Code7" placeholder="123 45" required/>
                         </div>
                 </article>
@@ -115,8 +110,9 @@
 
                     <fieldset class="form-group">
                         <div class="row">
-                        <legend class="col-form-label col-6 col-sm-2 pt-0">Who do you represent?</legend>
-                        <div class="col-sm-6">
+                        <legend class="col-form-label col-sm-6 col-md-4 pt-0">Who do you represent?</legend>
+                        <hr>
+                        <div class="col-sm-6 col-md-4">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked required/>
                                 <label class="form-check-label" for="gridRadios1">
@@ -133,9 +129,12 @@
                         </div>
                     </fieldset>
 
+                    <hr>
+
                     <div class="form-group row">
-                        <div class="col-6 col-sm-2">What are you interested in?</div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-6 col-md-4">What are you interested in?</div>
+                    
+                        <div class="col-sm-6 col-md-4">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck1">
                             <label class="form-check-label" for="gridCheck1">
@@ -153,16 +152,23 @@
                     </div>
 
                     <hr>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <hr>
 
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck3" required/>
                         <label class="form-check-label" for="gridCheck3">
-                            I have read and I accept the terms and conditions* 
+                            <p>I have read and I agree on the <a target="_blank" href="#">terms and conditions</a>.*</p>
                         </label>
                     </div>
                     <hr>
                     <div class="form-group row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 col-md-4">
                         <button type="submit" class="btn btn-success">Submit</button>
                         </div>
                     </div>
@@ -190,6 +196,10 @@
                 </div>
                 <div class="col-6 col-sm-3 social">
                     <ul><li><a target="_blank" href="www.youtube.com"><i class="fab fa-youtube"></i></a></li></ul>
+                </div>
+                <div class="col-12 social">
+                    <p>Copyright (c) Me 2021 | Code Institute | Milestone Project 1 - User Centric Frontend Development | Lyftet i Lövgärdet</p>
+
                 </div>
             </div>
         </div>       

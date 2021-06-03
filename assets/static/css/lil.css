@@ -31,7 +31,6 @@ header .col-12 {
     color: #28a745!important;
     font-family: "Exo", sans-serif;
     font-weight: 700;
-    font-size: larger;
 }
 
 .text-success:hover {
@@ -68,6 +67,20 @@ input, button {
     color: #1d7b32;
 }
 
+footer {
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #28a745;
+    font-size: small;
+    text-align: center;
+}
+
+footer p:hover {
+    color: #1d7b32;
+}
+
 
 /* ----------Section Page - Contact - Form */
 
@@ -75,7 +88,12 @@ input, button {
     background-color: #E0EDE3!important;
 }
 
+section h4 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+
 .form-control {
     width: 70%;
 }
-
