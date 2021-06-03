@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+* { 
+    margin:0; 
+    padding:0;
+    border:0;
+ }
+
+/* ----------xxx */
+
+
+/* ----------Header - Navbar - Override */ 
+
+header .col-12 {
+    padding: 0;
+}
+
+.lil-font {
+    color: #28a745;
+    font-family: "Exo", sans-serif;
+    font-size: 140%;
+}
+
+.navbar-light .navbar-toggler { /*Burger menu*/
+    color: #28a745;
+    border-color: #1d7b32;
+    font-size: 90%; 
+}
+
+.text-success {
+    color: #28a745!important;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.text-success:hover {
+    color: #1d7b32!important;
+}
+
+.dropdown-item {
+    font-size: medium;
+}
+
+input, button {
+    font-family: "Exo", sans-serif;
+}
+
+
+/* ----------Footer */
+
+.social {
+    color: #28a745;
+    font-size: 280%;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social i {
+    color: #28a745;
+}
+
+.social i:hover {
+    color: #1d7b32;
+}
+
