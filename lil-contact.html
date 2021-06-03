@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/static/css/lil.css" type="text/css">
+    <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" target="_blank" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" target="_blank" href="assets/static/css/lil.css" type="text/css">
     <title>LiL - Contact</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
             Modification of: HTML, CSS and overrides with the help of the chrome developer tool. 
         -->
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><strong class="lil-font"><i class="fas fa-leaf"></i> Lyftet i Lövgärdet</strong></a>
+                    <a class="navbar-brand" target="_blank" href="#"><strong class="lil-font"><i class="fas fa-leaf"></i> Lyftet i Lövgärdet</strong></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -26,23 +26,23 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-success" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-success" target="_blank" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-success" target="_blank" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             The Network
                             </a>
 
                             <div class="dropdown-menu alert alert-success" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-success" href="#">Activities / Events</a>
-                            <a class="dropdown-item text-success" href="#">Gallery</a>
-                            <a class="dropdown-item text-success" href="#">Partners</a>
+                            <a class="dropdown-item text-success" target="_blank" href="#">Activities / Events</a>
+                            <a class="dropdown-item text-success" target="_blank" href="#">Gallery</a>
+                            <a class="dropdown-item text-success" target="_blank" href="#">Partners</a>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-success" href="#">Contact</a>
+                            <a class="nav-link text-success" target="_blank" href="#">Contact</a>
                         </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
@@ -60,63 +60,114 @@
         <div class="container-fluid">
             <div class="row bg-light_contact_section-1">
                 <div class="col-12">
-
                     <h1 class="text-success">Contact</h1>
-
+                    
                     <form>
-                    <div class="form-row">
-                        <div class="col">                        
-                        <label for="inputFirstName">First name</label>
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
-                        </div>
-                        <div class="col">                        
-                        <label for="inputLastName">Last name</label>
-                        <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+                    
+                <article>
+                    <div class="form-group row">
+                        <label for="inputFirstName1" class="col-12 col-sm-10 col-md-3 col-form-label">First Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputFirstName1" placeholder="First Name" required/>
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label for="inputLastName2" class="col-12 col-sm-10 col-md-3 col-form-label">Last Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputLastName2" placeholder="Last Name" required/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPhone3" class="col-12 col-sm-10 col-md-3 col-form-label">Phone</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control" id="inputPhone3" placeholder="+46-70-000 00 00" required/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="inputEmail4" class="col-12 col-sm-10 col-md-3 col-form-label">Email</label>
+                        <div class="col-sm-4">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputAddress5" class="col-12 col-sm-10 col-md-3 col-form-label">Address</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputAddress5" placeholder="Address" required/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputCity6" class="col-12 col-sm-10 col-md-3 col-form-label">City</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputCity6" placeholder="City" required/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputZip-Code7" class="col-12 col-sm-10 col-md-3 col-form-label">Zip-Code</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputZip-Code7" placeholder="123 45" required/>
+                        </div>
+                </article>
 
+            <hr>
 
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <aside>
+
+                    <fieldset class="form-group">
+                        <div class="row">
+                        <legend class="col-form-label col-6 col-sm-2 pt-0">Who do you represent?</legend>
+                        <div class="col-sm-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked required/>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Organisation
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" required/>
+                                <label class="form-check-label" for="gridRadios2">
+                                    Private person
+                                </label>
+                            </div>
                         </div>
-                        <div class="form-group col-md-6">
-                        <label for="inputPhone4">Phone</label>
-                        <input type="phone" class="form-control" id="inputPhone4" placeholder="Phone">
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-4">
-                        <label for="inputRegion">Region</label>
-                        <select id="inputRegion" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </div>
-                    <div class="form-group">
+                    </fieldset>
+
+                    <div class="form-group row">
+                        <div class="col-6 col-sm-2">What are you interested in?</div>
+                        <div class="col-sm-10">
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Participation
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <label class="form-check-label" for="gridCheck2">
+                                Information
+                            </label>
+                        </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
 
+                    <hr>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck3" required/>
+                        <label class="form-check-label" for="gridCheck3">
+                            I have read and I accept the terms and conditions* 
+                        </label>
+                    </div>
+                    <hr>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                
+                </aside>
 
                     </form>
 
@@ -129,16 +180,16 @@
         <div class="container-fluid">
             <div class="row bg-light">
                 <div class="col-6 col-sm-3 social">
-                    <ul><li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li></ul>
+                    <ul><li><a target="_blank" href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li></ul>
                 </div>
                 <div class="col-6 col-sm-3 social">
-                    <ul><li><a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a></li></ul>
+                    <ul><li><a target="_blank" href="www.twitter.com"><i class="fab fa-twitter-square"></i></a></li></ul>
                 </div>
                 <div class="col-6 col-sm-3 social">
-                    <ul><li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li></ul>
+                    <ul><li><a target="_blank" href="www.instagram.com"><i class="fab fa-instagram"></i></a></li></ul>
                 </div>
                 <div class="col-6 col-sm-3 social">
-                    <ul><li><a href="www.youtube.com"><i class="fab fa-youtube"></i></a></li></ul>
+                    <ul><li><a target="_blank" href="www.youtube.com"><i class="fab fa-youtube"></i></a></li></ul>
                 </div>
             </div>
         </div>       
