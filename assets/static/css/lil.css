@@ -6,7 +6,14 @@
     border:0;
  }
 
-/* ----------xxx */
+/* ----------Common between different pages */
+
+
+section h4, section h5 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
 
 
 /* ----------Header - Navbar - Override */ 
@@ -81,17 +88,47 @@ footer p:hover {
     color: #1d7b32;
 }
 
+/* ----------Section Page - Home */
+
+
+
+/* ----------Section Page - The Network, Activities */
+
+.card {
+    margin: 0;
+}
+
+/* ----------Section Page - The Network, Gallery */
+
+.bg-light_gallery_section-1 {
+    background-color: #28a745!important;
+}
+
+.carousel-indicators .active {
+    background-color: #1d7b32;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+
+/* ----------Section Page - The Network, Partners */
+
+
 
 /* ----------Section Page - Contact - Form */
 
 .bg-light_contact_section-1 {
     background-color: #E0EDE3!important;
-}
-
-section h4 {
-    font-family: "Exo", sans-serif;
-    text-align: center;
-    margin: 10px auto;
 }
 
 .form-control {
